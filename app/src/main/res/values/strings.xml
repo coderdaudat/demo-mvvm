@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoMVVM</string>
+    <string name="main_next_activity">Next activity</string>
+    <string name="main_user_name_default">EthanNguyen</string>
+    <string name="edit_user_name_edit_text_hint">Input username</string>
+    <string name="edit_user_name_label">Username</string>
+</resources>

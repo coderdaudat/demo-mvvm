@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+                name="viewModel"
+                type="com.example.demomvvm.features.username.EditUserNameViewModel"/>
+    </data>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+        <EditText
+                style="@style/EditTextEditProfile"
+                android:hint="@string/edit_user_name_edit_text_hint"
+                android:maxLines="1"
+                android:text="@={viewModel.userName}"/>
+
+    </RelativeLayout>
+
+</layout>
