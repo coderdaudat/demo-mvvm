@@ -10,7 +10,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".features.litho.state.StateMainActivity">
+        <activity android:name=".features.litho.state2.State2MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
