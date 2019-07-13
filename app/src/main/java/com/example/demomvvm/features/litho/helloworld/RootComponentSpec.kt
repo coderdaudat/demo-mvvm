@@ -1,5 +1,6 @@
 package com.example.demomvvm.features.litho.helloworld
 
+import android.graphics.Color
 import androidx.annotation.LayoutRes
 import com.example.demomvvm.R
 import com.facebook.litho.Component
@@ -19,6 +20,7 @@ object RootComponentSpec {
                        content: String): Component {
         return Text
             .create(c)
+            .textColor(Color.RED)
             .textSizeSp(c.applicationContext.resources.getDimension(R.dimen.text_size))
             .text(content)
             .build()
